@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { StyledNav, Nav, Hamburger,  } from './Header.styled'
+import {  Hamburger } from './Header.styled'
 import { FaTimes, FaBars } from 'react-icons/fa'
  import '../Header/Header.css'
 
@@ -20,13 +20,13 @@ const Navbar = () => {
     window.addEventListener('scroll', changeColor)
 
     return (
-        <StyledNav className={color?  'header-bg': ''}>
+        <div className={color?  ' header header-bg': 'header'}>
             <Link to='/' >
                 <h1>big teenz </h1>
             </Link>
             
-            <Nav >
-                <ul className={show? 'nav-active': 'nav'}>
+            
+                <ul className={show? 'nav-menu active': 'nav-menu'}>
                 <li>
                     <Link to='/'>Home</Link>
                 </li>
@@ -44,14 +44,14 @@ const Navbar = () => {
                 </li>
                 </ul>
 
-            </Nav>
+            
 
 
             <Hamburger onClick={handleClick}>
                 {show ? (<FaTimes size={20} style={{ color: '#fff' }} />) : (<FaBars size={20} style={{ color: '#fff' }} />)}
 
             </Hamburger>
-        </StyledNav>
+        </div>
     )
 }
 
