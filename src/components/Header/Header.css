@@ -16,6 +16,7 @@
 
 .nav-menu {
     display: flex;
+    list-style-type: none;
 }
 
 .nav-menu li {
@@ -25,8 +26,9 @@
 }
 
 .nav-menu li a {
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 @media(max-width: 1040px){

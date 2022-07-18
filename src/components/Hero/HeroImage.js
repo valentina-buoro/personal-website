@@ -13,8 +13,8 @@ const HeroImage = () => {
 
 
 
-            <div className='content'>
-                <p>HELLO, I'M VALENTINA</p>
+            <div className='content linear'>
+                <p className='revealUp'>HELLO, I'M VALENTINA</p>
                 <h1>A React Developer</h1>
                 <h3>
                 <em>I am a frontend developer that is passionate about creating beautiful
