@@ -13,7 +13,7 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({theme})=>theme.colors.body}
  }
 
- h1, h4, p, a, em{
+ h1, h4, p, a, h3{
     color: white;
     text-decoration: none;
  }
