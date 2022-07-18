@@ -1,7 +1,7 @@
 .pricing{
     width:100%;
     padding: 6rem 1rem;
-    background: #000;
+    background: #f5f5f4;
 }
 
 .card-container{
@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
+   
 }
 
 .card{
@@ -17,6 +18,7 @@
     color: #eee;
     text-align: center;
     padding: 1rem;
+    background-color: #000;
 }
 
 .card:hover{

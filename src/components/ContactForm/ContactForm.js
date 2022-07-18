@@ -4,7 +4,7 @@ import{ DarkButton } from '../styles/Button'
 
 const ContactForm = () => {
   return (
-    <div>
+    <div className='form'>
         <form>
             <label>Your Name</label>
             <input type='text'></input>

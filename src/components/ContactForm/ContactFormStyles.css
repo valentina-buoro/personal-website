@@ -1,6 +1,9 @@
 label{
-    color: #fff;
+    color: #000;
     margin-bottom: 0.5rem;
+}
+.form{
+     background-color: #f5f5f4;;
 }
 
 form{
@@ -15,7 +18,8 @@ form input, form textarea{
     margin-bottom: 1rem;
     padding: 10px 18px;
     font-size: 1.2rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.1);
-    color: #f4f4f4;
+    background-color: #fff;;
+    border-color: #000;
+    border-radius: 5px;
+    color: #000;
 }

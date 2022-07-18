@@ -3,6 +3,10 @@
     padding: 4rem 0rem 2rem 0;
 }
 
+.work-container{
+    background-color: #fff;
+}
+
 .project-container{
     max-width: 1140px;
     margin: auto;
@@ -15,6 +19,7 @@
 .project-card{
     background: #1a1919;
     padding: 1.2rem 1rem;
+    border-radius: 15px;
 }
 
 .project-card img{
