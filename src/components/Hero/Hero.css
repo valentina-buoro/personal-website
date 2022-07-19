@@ -61,8 +61,10 @@
     padding-top: 13px;
 }
 
-.content .btn{
-    margin: 1rem 0.2rem;
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width:640px){

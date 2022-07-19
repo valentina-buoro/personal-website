@@ -1,15 +1,18 @@
 import styled from "styled-components";
 
 export const DarkButton = styled.button`
- padding: 12px, 32px;
+
  font-size: 1rem;
  text-transform: uppercase;
- background: rgb(248, 217, 15);
+ background-image: linear-gradient( #efcc00, #ffd300);
  color: #222;
- border: 1px solid #fff;
- border-radius: 5px
  cursor: pointer;
  margin: 1rem 0.2rem;
+ padding: 7px 20px;
+ border: 0.2px solid #efcc00;
+ border-radius: 50px;
+
+
 
  &:hover{
     background: rgba(255, 255, 255, 0.2);
