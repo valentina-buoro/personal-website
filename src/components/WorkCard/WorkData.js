@@ -5,20 +5,20 @@ import prop3 from '../WorkCard/laptop-wallpaper.jpg'
 const ProjectCardData = [
     {
         imgsrc: prop1,
-        title: 'Ecommerce website',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        url: 'https://www.youtube.com'
+        title: 'Markdown Editor',
+        text: 'This markdown editor was built with React and Remarkable libraries. It is useful for developers and anyone who wants to practice how to write markdown. It has a download button that downloads the result of your markdown text',
+        url: 'bigteenzmarkdown.netlify.app'
     },
     {
         imgsrc: prop2,
         title: 'Landing Page',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        text: '',
         url: 'https://www.youtube.com'
     },
     {
         imgsrc: prop3,
         title: 'Pixel Art Maker',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        text: '',
         url: 'https://www.youtube.com'
     }
 ]
