@@ -16,6 +16,7 @@ const Work = () => {
                 title={val.title}
                 text={val.text}
                 url={val.url}
+                github={val.github}
                 />
             )
          })}  

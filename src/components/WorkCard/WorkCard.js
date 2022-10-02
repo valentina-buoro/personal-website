@@ -17,7 +17,7 @@ const WorkCard = (props) => {
                             </DarkButton>
                         </NavLink>
 
-                        <NavLink to='url.com'>
+                        <NavLink to={props.github}>
                             <DarkButton className='bt'>
                                 SOURCE
                             </DarkButton>
