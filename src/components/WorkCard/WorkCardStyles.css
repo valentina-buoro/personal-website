@@ -22,6 +22,7 @@
     background: #29292B;
     padding: 1.2rem 1rem;
     border-radius: 15px;
+    position: relative;
 }
 
 .project-card img{
@@ -29,25 +30,35 @@
 }
 
 .project-title{
-    color:#fff;
+    color:#faf9f6;
     padding:1rem 0;
 }
 
 .pro-details p{
     padding-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 1.1rem;
     text-align: justify;
+    color: #faf9f6;
 }
 
 .pro-btns{
     display: flex;
     justify-content: space-between;
+    gap: 3.5rem;
     padding: 0.5rem 0;
+    position: absolute;
+    bottom: 10px;
 }
 
-.pro-btns .bt{
-    padding-right: 2rem;
+.pro-btns a{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    
 }
+
 
 @media screen and (max-width: 740px){
     .project-container{

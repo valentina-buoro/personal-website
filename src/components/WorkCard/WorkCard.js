@@ -1,6 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import { DarkButton } from '../styles/Button'
 import '../WorkCard/WorkCardStyles.css'
 
 const WorkCard = (props) => {
@@ -11,17 +9,12 @@ const WorkCard = (props) => {
                 <div className='pro-details'>
                     <p>{props.text}</p>
                     <div className='pro-btns'>
-                        <NavLink to={props.url}>
-                            <DarkButton className='bt'>
-                                VIEW
-                            </DarkButton>
-                        </NavLink>
-
-                        <NavLink to={props.github}>
-                            <DarkButton className='bt'>
-                                SOURCE
-                            </DarkButton>
-                        </NavLink>
+                    <a  href={props.url}>
+                      Link to Project
+                    </a>
+                    <a  className='bt' href={props.github}>
+                      Github
+                    </a>
                     </div>
                 </div>
             </div>
