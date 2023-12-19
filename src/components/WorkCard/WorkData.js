@@ -4,8 +4,16 @@ import prop3 from '../WorkCard/project7.png'
 import prop4 from '../WorkCard/project4.png'
 import prop5 from '../WorkCard/project8.png'
 import prop6 from '../WorkCard/project6.png'
+import TrustBallot from '../WorkCard/trustBallot.png'
 
 const ProjectCardData = [
+    {
+imgsrc: TrustBallot,
+        title: 'Trust Ballot',
+        text: '',
+        url: 'https://wibateam4.netlify.app/',
+        github: 'https://github.com/queen-x-vee/Hackathon-WIBAHacks'
+    },
     {
         imgsrc: prop1,
         title: 'Markdown Editor',
