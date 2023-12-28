@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import {  Hamburger } from './Header.styled'
 import { FaTimes, FaBars } from 'react-icons/fa'
+import Valentina from './valentinaBuoro.png'
  import '../Header/Header.css'
 
 const Navbar = () => {
@@ -21,24 +21,27 @@ const Navbar = () => {
 
     return (
         <div className={color?  ' header header-bg': 'header'}>
-            <Link to='/' >
-                <h1>big teenz </h1>
-            </Link>
+            <a href='#home' >
+                
+                <div>
+                    <img src={Valentina} alt='val' width={80} height={80} />
+                </div>
+            </a>
             
             
                 <ul className={show? 'nav-menu active': 'nav-menu'}>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <a href='#home'>Home</a>
                 </li>
                 <li>
-                    <Link to='/projects'>Projects</Link>
+                    <a href='#projects'>Projects</a>
                 </li>
                 <li>
-                    <Link to='/about'>About</Link>
+                    <a href='#about'>About</a>
                 </li>
                 
                 <li>
-                    <Link to='/contact'>Contact</Link>
+                    <a href='#contact'>Contact</a>
                 </li>
                 </ul>
 

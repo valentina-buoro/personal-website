@@ -5,7 +5,7 @@ import ProjectCardData from './WorkData'
 
 const Work = () => {
   return (
-    <div className='work-container'>
+    <div className='work-container' id='projects'>
         <h1 className='project-heading'>Projects</h1>
         <div className='project-container'>
          {ProjectCardData.map((val,index)=>{

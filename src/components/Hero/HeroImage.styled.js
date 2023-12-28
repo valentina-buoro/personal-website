@@ -41,7 +41,7 @@ export const Mask  =styled(StyledHero)`
 export const Content = styled(StyledHero)`
  
  position: absolute;
- transform: translate(-50%, -50%)
+ transform: translate(-50%, -50%);
  top: 50%;
  left:50%;
  text-align: center;
