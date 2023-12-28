@@ -7,17 +7,7 @@ const AboutContent = () => {
   return (
     <div className="about" id="about">
       <div
-        style={{
-          background: "#1a1919",
-          display: "flex",
-          width: "80%",
-          height: "100%",
-          marginLeft: "auto",
-          marginRight: "auto",
-          marginTop: "4rem",
-          marginBottom: "4rem",
-          padding: "1rem",
-        }}
+       className="aboutContent"
       >
         <div className="left">
           <h1>Who Am I</h1>

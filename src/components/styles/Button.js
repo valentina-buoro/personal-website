@@ -7,7 +7,7 @@ export const DarkButton = styled.button`
  background: rgb(255, 199, 95);
  color: #222;
  cursor: pointer;
- margin: 1rem 0.2rem;
+ margin: 1rem 0.8rem;
  padding: 1.7rem 3.2rem;
  border: 0.2rem solid rgb(255, 199, 95);
  font-weight: 700;
@@ -18,6 +18,10 @@ export const DarkButton = styled.button`
     background: rgba(255, 255, 255, 0.2);
     color: #fff;
     transition: 0.3s;
+ }
+ @media screen and (max-width:640px){
+   padding: 1.2rem 2rem;
+   
  }
 `
 

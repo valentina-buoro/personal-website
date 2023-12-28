@@ -24,7 +24,7 @@ const HeroImage = () => {
             <a href="/projects">VIEW PROJECTS</a>
           </DarkButton>
 
-          <LightButton className="btn right" style={{ marginLeft: "2.5rem" }}>
+          <LightButton className="btn right" >
             <a href="#contact">CONTACT ME</a>
           </LightButton>
         </div>
